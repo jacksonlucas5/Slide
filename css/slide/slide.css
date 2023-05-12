@@ -1,14 +1,29 @@
-.slide {
-  display: flex;  
+body {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .slide-wrapper {
- overflow-y: hidden;
+  overflow: scroll;
+}
+
+.slide {
+  display: flex;
 }
 
 .slide li {
-  flex-shrink: 0; 
+  flex-shrink: 0;
   width: 80vw;
   max-width: 800px;
-  margin: 20px;
+  margin: 0 20px;
 }
